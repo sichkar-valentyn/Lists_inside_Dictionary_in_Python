@@ -1,10 +1,23 @@
+# File: Lists_inside_Dictionary_in_Python.py
+# Description: Calculating the scores of sports team by using Lists inside Dictionary
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+# Reference to:
+# [1] Valentyn N Sichkar. Lists inside Dictionary in Python // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Lists_inside_Dictionary_in_Python (date of access: XX.XX.XXXX)
+
+
 # Implementing the task
 # Lists inside dictionary
 # Calculating the scores of sports team
-n = int(input())
+n = int(input())  # number of games
 string = ''
 d = {}
 
+# Format of input is following: 
+# Team;score;Team;score
 for i in range(n):
     string = input().split(';')
     # If there is no yet teams in the dictionary
