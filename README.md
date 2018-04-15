@@ -6,13 +6,13 @@ Calculating the scores of sports team by using Lists inside Dictionary
 
 ## Description
 Using Lists inside Dictionary, calculating the scores of sports team.
-For the winning +3
-For the Draw +1
-For the losing -1
+<br/>For the winning +3
+<br/>For the Draw +1
+<br/>For the losing -1
 
 Format of input is following:
-n # number of games
-Team;score;Team;score
+<br/>n # number of games
+<br/>Team;score;Team;score
 
 Format of output is following:
 Team: number_of_games number_of_wins number_of_draw_games number_of_lost_games score_of_win_games
