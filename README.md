@@ -15,7 +15,7 @@ Format of input is following:
 <br/>Team;score;Team;score
 
 Format of output is following:
-Team: number_of_games number_of_wins number_of_draw_games number_of_lost_games score_of_win_games
+<br/>Team: number_of_games number_of_wins number_of_draw_games number_of_lost_games score_of_win_games
 
 ## MIT License
 ## Copyright (c) 2018 Valentyn N Sichkar
