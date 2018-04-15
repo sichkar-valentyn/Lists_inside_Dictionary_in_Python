@@ -47,9 +47,10 @@ for i in range(n):
         
 
 # Showing the table with results
+# Format of output is following:
+# Team: number_of_games number_of_wins number_of_draw_games number_of_lost_games score_of_win_games
 for x, y in d.items():
     print(x, end=':')
     for z in y:
         print(z, end=' ')
     print()
-
